@@ -15,7 +15,7 @@ void scale(int x, int y) {
   int g = 99+(int)(Math.random()*30);
   int b = 180+(int)(Math.random()*255);
   fill(r,g,b);
-beginShape();
+beginShape(); 
 curveVertex((300/3)+x,(100/3)+y);
 curveVertex((300/3)+x,(100/3)+y);
 curveVertex((225/3)+x,(200/3)+y);
